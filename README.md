@@ -1,116 +1,126 @@
 # AI-Powered File Organisation and Management Tool
 
-![React](https://img.shields.io/badge/Frontend-React-blue)
-![Vite](https://img.shields.io/badge/Build-Vite-purple)
-![Tailwind](https://img.shields.io/badge/UI-TailwindCSS-38bdf8)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![AI](https://img.shields.io/badge/AI-Enabled-orange)
+![AI](https://img.shields.io/badge/Architecture-AI--Ready-orange)
+![Frontend](https://img.shields.io/badge/Frontend-React-blue)
+![UI](https://img.shields.io/badge/UI-TailwindCSS-38bdf8)
 
 ---
 
 ## 🧠 Overview
 
-An intelligent file management system that transforms traditional file handling into a structured, automated, and AI-driven workflow.
+A content-aware file management system that transforms traditional file storage into an intelligent, structured, and searchable workflow.
 
-Instead of relying on manual folders and naming conventions, this system introduces **content-aware processing, metadata generation, and smart retrieval mechanisms** directly within a web-based environment.
-
----
-
-## 🎯 Core Idea
-
-> Files should not just be stored — they should be understood, categorized, and retrieved intelligently.
+Instead of relying on manual folder structures and naming conventions, this system introduces a pipeline-driven architecture where files are automatically processed, categorized, and indexed for efficient retrieval.
 
 ---
 
-## ⚙️ System Architecture
+## 🎯 Problem Statement
+
+Modern file systems suffer from:
+
+- Unorganized file structures  
+- Time-consuming manual sorting  
+- Inefficient search limited to file names  
+- Difficulty in locating important files  
+- Reduced productivity due to poor file management  
+
+---
+
+## 🚀 Solution
+
+This system introduces an intelligent layer that:
+
+- Automatically categorizes files  
+- Extracts meaningful metadata  
+- Enables content-aware search  
+- Provides structured retrieval  
+
+---
+
+## ⚙️ System Workflow
 
 
-User Upload
-↓
-File Ingestion
-↓
-Content Extraction
-↓
-Processing Layer
-↓
-Categorization Engine
-↓
-Metadata Generation
-↓
-Storage Layer
-↓
-Indexing
-↓
-Search Engine
-↓
-Result Ranking
-↓
-UI Display + Preview
+Upload → Process → Categorize → Generate Metadata → Store → Index → Search → Retrieve
 
 
 ---
 
-## 🔄 Processing Pipeline
+## 🔄 Detailed Processing Pipeline
 
 
-[ Upload File ]
+[ User Upload ]
 ↓
-[ Detect File Type ]
+[ File Ingestion ]
 ↓
-[ Extract Content ]
+[ File Type Detection ]
 ↓
-[ Analyze Patterns ]
+[ Content Extraction ]
+(Text / DOCX / Image / PDF)
 ↓
-[ Assign Category ]
+[ Processing Layer ]
 ↓
-[ Generate Tags & Keywords ]
+[ Categorization Engine ]
 ↓
-[ Store Data ]
+[ Metadata Generation ]
+(Tags / Keywords / Summary)
 ↓
-[ Search & Retrieve ]
+[ Storage Layer ]
+(LocalStorage)
+↓
+[ Indexing ]
+↓
+[ Search Engine ]
+↓
+[ Result Ranking ]
+↓
+[ UI Display + Preview ]
 
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
 - 📂 Multi-file upload and management  
 - 🔍 Smart search (content + metadata + tags)  
 - 🧠 Intelligent categorization system  
 - 🏷 Automatic tag and keyword generation  
 - 👁 File preview (images, text, PDF)  
-- 🗑 Delete and download functionality  
-- ⚡ Fast UI with real-time filtering  
+- 🗑 File delete and download functionality  
+- ⚡ Fast filtering and responsive UI  
 
 ---
 
 ## 🔍 Intelligent Search System
 
-The search engine performs multi-layer matching:
+The system supports multi-layer search:
 
 - File name matching  
-- Content-based matching  
+- Content-based search  
 - Tag-based filtering  
 - Keyword indexing  
 
-This allows the system to behave like a lightweight **AI-powered retrieval engine**.
+This enables more accurate and efficient file retrieval compared to traditional systems.
 
 ---
 
-## 🤖 AI Capabilities (Web-Based)
+## 🤖 AI Capability (Working + Designed)
 
-The system integrates AI-inspired processing directly in the browser:
+### ✔ Implemented (Current System)
+- Content-based categorization  
+- Keyword extraction  
+- Metadata generation  
+- Multi-layer search logic  
 
-- Content recognition using extracted data  
-- Pattern-based categorization  
-- Keyword extraction and tagging  
-- Context-aware search behavior  
-
-This creates a **browser-executed AI workflow** without requiring backend processing.
+### 🚀 AI Integration (Architecture Level)
+- NLP-based semantic search  
+- ML-based file classification  
+- Context-aware ranking  
+- Recommendation systems  
 
 ---
 
-## 🧠 AI Architecture (Future Integration)
+## 🧠 AI Processing Flow (Future Integration)
 
 
 Input File
@@ -132,23 +142,23 @@ Ranked Results
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Technology Stack
 
 ### Frontend
-- React (Vite)
-- Tailwind CSS
-- Lucide React
+- React (Vite)  
+- Tailwind CSS  
+- Lucide React  
 
 ### File Processing
-- Mammoth.js (DOCX extraction)
-- FileReader API
+- Mammoth.js (DOCX parsing)  
+- FileReader API  
 
 ### Storage
-- LocalStorage (prototype)
+- Browser LocalStorage  
 
-### Future Backend
-- Python (FastAPI)
-- NLP / ML models
+### Runtime / AI Extension
+- Node.js ecosystem  
+- Python (planned for ML/NLP backend)  
 
 ---
 
@@ -156,7 +166,7 @@ Ranked Results
 
 - Modular pipeline architecture  
 - Scalable design  
-- AI-ready system structure  
+- AI-ready structure  
 - Lightweight and fast  
 - Privacy-focused (runs locally)  
 
@@ -165,7 +175,7 @@ Ranked Results
 ## 📈 Impact
 
 - Reduces file search time  
-- Eliminates manual organization  
+- Eliminates manual file organization  
 - Improves productivity  
 - Enables structured file understanding  
 
@@ -177,8 +187,14 @@ Ranked Results
 - Image recognition models  
 - AI summarization  
 - Voice-based search  
-- Cloud integration (AWS / GDrive)  
-- Backend AI services  
+- Cloud integration (AWS / Google Drive)  
+- Backend services using Python (FastAPI + ML models)  
+
+---
+
+## 💡 Key Insight
+
+> This system shifts file management from manual organization to intelligent, automated understanding.
 
 ---
 
