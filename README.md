@@ -1,41 +1,48 @@
-# AI-Powered File Organisation and Management Tool
+ # AI-Powered File Organisation and Management Tool
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![AI](https://img.shields.io/badge/Architecture-AI--Ready-orange)
+![Architecture](https://img.shields.io/badge/Architecture-AI--Ready-orange)
 ![Frontend](https://img.shields.io/badge/Frontend-React-blue)
 ![UI](https://img.shields.io/badge/UI-TailwindCSS-38bdf8)
 
-## Overview
+---
 
-An intelligent file management system that introduces automated organization, content-aware retrieval, and AI-driven file understanding into traditional file workflows.
+## 🧠 Overview
 
-Instead of depending only on folders and manual naming conventions, this system follows a pipeline-driven approach where files are processed, categorized, enriched with metadata, and retrieved through structured search.
+An intelligent file management system that introduces automated organization, content-aware retrieval, and structured file understanding into traditional file workflows.
 
-## Problem Statement
+Instead of relying on manual folder structures and naming conventions, the system uses a **pipeline-based architecture** to process, categorize, and index files for efficient retrieval.
+
+---
+
+## 🎯 Problem Statement
 
 Modern file systems often suffer from:
 
-- Unorganized file structures
-- Time-consuming manual sorting
-- Search limited to file names
-- Difficulty in locating important files
-- Reduced productivity due to inefficient file retrieval
+- 📁 Unorganized file structures  
+- ⏱ Time-consuming manual sorting  
+- 🔍 Search limited to file names  
+- ❗ Difficulty locating important files  
+- 📉 Reduced productivity  
 
-## Solution
+---
+
+## 🚀 Solution
 
 This system introduces an intelligent layer that:
 
-- Automatically categorizes files
-- Extracts useful metadata
-- Enables content-aware search
-- Supports structured retrieval
-- Improves file accessibility and usability
+- 🧠 Automatically categorizes files  
+- 🏷 Extracts meaningful metadata  
+- 🔍 Enables content-aware search  
+- 📊 Provides structured retrieval  
 
-## System Workflow
+---
+
+## ⚙️ System Workflow
 
 ```text
 Upload → Process → Categorize → Generate Metadata → Store → Index → Search → Retrieve
-Detailed Processing Pipeline
+🔄 Detailed Processing Pipeline
 [ User Upload ]
       ↓
 [ File Ingestion ]
@@ -62,38 +69,38 @@ Detailed Processing Pipeline
 [ Result Ranking ]
       ↓
 [ UI Display + Preview ]
-Core Features
-Multi-file upload and management
-Smart search using content, metadata, tags, and keywords
-Intelligent categorization system
-Automatic tag and keyword generation
-File preview for images, text, and PDF
-File delete and download functionality
-Fast filtering with responsive UI
-Intelligent Search System
+✨ Core Features
+📂 Multi-file upload and management
+🔍 Smart search (content + metadata + tags)
+🧠 Intelligent categorization system
+🏷 Automatic tag and keyword generation
+👁 File preview (images, text, PDF)
+🗑 File delete and download functionality
+⚡ Fast filtering with responsive UI
+🔎 Intelligent Search System
 
-The search system supports multiple matching layers:
+The search engine supports multiple matching layers:
 
-File name matching
-Content-based matching
-Tag-based filtering
-Keyword indexing
+📄 File name matching
+📚 Content-based matching
+🏷 Tag-based filtering
+🔑 Keyword indexing
 
-This improves retrieval quality compared to traditional file systems that depend mainly on filenames.
+This significantly improves retrieval accuracy compared to traditional file systems.
 
-AI Capability
-Implemented in the Current System
-Content-based categorization
-Keyword extraction
-Metadata generation
-Multi-layer search logic
-File-type-aware processing
-AI-Oriented Design for Extension
-NLP-based semantic search
-ML-based file classification
-Context-aware ranking
-Recommendation systems
-AI Processing Flow
+🤖 AI Capability
+✔ Implemented
+🧠 Content-based categorization
+🏷 Metadata generation
+🔑 Keyword extraction
+🔍 Multi-layer search logic
+📁 File-type-aware processing
+🚀 Designed for Integration
+📚 NLP-based semantic search
+🤖 Machine learning classification
+📊 Context-aware ranking
+💡 Recommendation systems
+🧠 AI Processing Flow
 Input File
      ↓
 Preprocessing
@@ -109,9 +116,9 @@ Query Processing
 Similarity Matching
      ↓
 Ranked Results
-Design Approach
+🧩 Design Approach
 
-The system is designed using a pipeline-based architecture, where each stage handles a specific responsibility:
+The system follows a pipeline-based architecture, where each stage handles a specific responsibility:
 
 ingestion
 processing
@@ -120,48 +127,44 @@ metadata generation
 indexing
 retrieval
 
-This approach improves modularity, maintainability, and future scalability.
+This ensures modularity, scalability, and maintainability.
 
-Technology Stack
+🛠 Technology Stack
 Frontend
-React
-Vite
+React (Vite)
 Tailwind CSS
 Lucide React
 File Processing
-Mammoth.js for DOCX extraction
-FileReader API for browser-based file handling
+Mammoth.js (DOCX parsing)
+FileReader API
 Storage
 Browser LocalStorage
-Runtime and Extension Layer
+Runtime & Extension
 Node.js ecosystem
-Python planned for future ML and NLP backend services
-System Characteristics
-Modular pipeline architecture
-Scalable design
-AI-ready structure
-Lightweight and fast
-Privacy-focused local execution
-Extensible for future backend integration
-Impact
-Reduces file search time
-Eliminates manual file organization effort
-Improves productivity
-Enables structured file understanding
-Provides a strong foundation for intelligent file management
-Future Enhancements
-NLP-based semantic search
-Image recognition models
-AI summarization
-Voice-based search
-Cloud integration with AWS or Google Drive
-Backend services using Python and FastAPI
-ML-based ranking and recommendation engine
-Key Insight
+Python (planned for AI/ML backend)
+📊 System Characteristics
+⚙ Modular architecture
+📈 Scalable design
+🧠 AI-ready structure
+⚡ Lightweight execution
+🔒 Privacy-focused local processing
+📈 Impact
+⏱ Reduces file search time
+🧠 Eliminates manual organization effort
+📊 Improves productivity
+📁 Enables structured file management
+🔮 Future Enhancements
+📚 NLP-based semantic search
+🖼 Image recognition models
+🧠 AI summarization
+🎤 Voice-based search
+☁ Cloud integration (AWS / Google Drive)
+⚙ Backend services using Python (FastAPI)
+💡 Key Insight
 
-This system shifts file management from manual organization to intelligent, automated understanding.
+File management should move from manual organization to intelligent, automated understanding.
 
-Contributors
+👨‍💻 Contributors
 Manoj K.P
 Amul Raj
 Bhuvan
