@@ -162,16 +162,6 @@ Ranked Results
 
 ---
 
-## 🎥 Demo
-
-> Add screenshots or GIF here
-
-
-/screenshots/ui.png
-
-
----
-
 ## 📈 Impact
 
 - Reduces file search time  
